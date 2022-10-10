@@ -10,4 +10,5 @@ for file_name in os.listdir("plots"):
         file_path = os.path.join("plots", file_name)
         images.append(imageio.imread(file_path))
 
-imageio.mimsave("rock_paper_scissors.gif", images)
+
+imageio.mimsave("rock_paper_scissors_.gif", images, fps=7)
